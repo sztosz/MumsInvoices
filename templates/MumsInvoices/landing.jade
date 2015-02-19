@@ -1,0 +1,35 @@
+//   Created by Bartosz on 2015-02-17.
+| {% load bootstrap3 %}
+
+!!! 5
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="Invoicing software for my mother in law")
+    meta(name="author" content="Bartosz Nowak, sztosz[at]gmail[dot]com")
+
+    title Invoicing made easy
+
+    | {% bootstrap_css %}
+
+    // Custom CSS
+    link(href="/static/css/base.css", rel="stylesheet")
+
+  body
+    .container
+      .login-container
+        #output
+        .avatar
+        .form-box
+          form(action="" method="")
+            input(name="user", type="text", placeholder="username")
+            input(type="password", placeholder="password")
+            button.btn.btn-info.btn-block.login(type="submit") Login
+
+
+
+
+    | {% bootstrap_javascript %}
+    script(src="/static/js/landing.js")

@@ -1,0 +1,18 @@
+!!! 5
+html(ng-app="mums-invoices")
+  head
+    title Mum's Invoices
+
+    base(href="/")
+
+    | {% include 'stylesheets.jade' %}
+
+  body
+    | {% include 'navbar.jade' %}
+
+    .container-fluid
+      .row
+        .col-xs-12.ng-view
+
+    | {% include 'javascripts.jade' %}
+
