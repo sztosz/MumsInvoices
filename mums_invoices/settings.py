@@ -1,5 +1,5 @@
 """
-Django settings for MumsInvoices project.
+Django settings for mums_invoices project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -53,9 +53,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'MumsInvoices.mums_invoices'
+ROOT_URLCONF = 'mums_invoices.urls'
 
-WSGI_APPLICATION = 'MumsInvoices.wsgi.application'
+WSGI_APPLICATION = 'mums_invoices.wsgi.application'
 
 
 # Database

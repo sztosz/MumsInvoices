@@ -5,8 +5,8 @@ from django.views.decorators.csrf import ensure_csrf_cookie
 
 class LandingView(TemplateView):
 
-    template_name = 'MumsInvoices/landing.jade'
-    success_url = 'MumsInvoices:landing'
+    template_name = 'mums_invoices/landing.jade'
+    success_url = 'mums_invoices:landing'
 
 class IndexView(TemplateView):
     template_name = 'index.jade'
