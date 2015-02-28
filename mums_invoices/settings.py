@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'rest_framework',
     'compressor',
     'authentication',
+    'posts',
     'examinations_lists',
 )
 
